@@ -1,1 +1,137 @@
+{
+"Premium" : [{
+   "Category" : 0,
+   "Ip" : "139.59.245.108",
+    "udp" : "0",
+    "Flag" : "sg",
+    "Name" : "Singapore 1"
+	},
+	{
+   "Category" : 0,
+    "Ip" : "139.59.245.108",
+    "udp" : "0",
+    "Flag" : "sg",
+    "Name" : "Singapore 2"
+	},
+	{
+   "Category" : 0,
+    "Ip" : "139.59.245.108",
+    "udp" : "0",
+    "Flag" : "sg",
+    "Name" : "Singapore 3"
+	}
+	],
+  
+  
+"Vip" : [ {	
+	"Category" : 1,
+    "Ip" : "178.128.106.82",
+    "udp" : "0",
+    "Flag" : "sg",
+    "Name" : "Singapore vip 1"
+  },
+  {	
+	"Category" : 1,
+   "Ip" : "139.59.245.108",
+    "udp" : "0",
+    "Flag" : "sg",
+    "Name" : "Singapore vip 2"
+  },{	
+	"Category" : 1,
+   "Ip" : "139.59.245.108",
+    "udp" : "0",
+    "Flag" : "sg",
+    "Name" : "Singapore vip 3"
+  }
+  
+  ],
+  
+  "Private" : [ {
+  "Category" : 2,
+    "Ip" : "139.59.245.108",
+    "udp" : "0",
+    "Flag" : "sg",
+    "Name" : "Singapore private 1"
+  },
+  {
+  "Category" : 2,
+    "Ip" : "139.59.245.108",
+    "udp" : "0",
+    "Flag" : "sg",
+    "Name" : "Singapore private 2"
+  },
+  {
+  "Category" : 2,
+   "Ip" : "139.59.245.108",
+    "udp" : "0",
+    "Flag" : "sg",
+    "Name" : "Singapore private 3"
+  },
+  ],
+  
+  
+     
+"categ" : [ {
+"Name" : "Premium",
+"Category" : 1
 
+}, {
+"Name" : "VIP",
+"Category" : 2
+}, {
+
+"Name" : "Private",
+"Category" : 3
+}
+
+],
+
+
+"Networks":[
+
+{
+"Name":"Globe No Promo",
+"Proxy":"0",
+"Port":"441",
+"Network":"globe",
+"Payload":"/8cf/+diXo5fqewY6F45w9hkXCkeSbUYmeM5e4p3v/3KCY7zjvCaKrKscoE4EAmp4gatyX+eiB3cwXWRb0Blm/JzcgsOr1ke4YZAjMHi1Ok=",
+"Sni":"mPJ6vohlHXsWOE3/xA6K+qWX4ula/7nm/vSFEDbzbJg=",
+"Message":"fo gtm users only"
+},
+{
+"Name":"GTM Promo",
+"Proxy":"0",
+"Port":"8989",
+"Network":"sun",
+"Payload":"jA92hPBwNgvNrfO4yH3xq2Vy6vxEPabRM+iBSOY3XR6yD45wvdZ5r/VvYypzBKlgOYpQlggmoHp56+vKkFA2IRfVsxKzizaXts/SDSNn7SCR7TpNv/TU7+0CcewxGyTz1a4tp3TfX116QQYd2WHVb2sEeSzj8JOiZRKVPkfprWTj0TxBfcRSi0xpRPjaoJwgSTI9hL9m4t582WPYjTJj1ezr9yKZQQCM7lXDyj8PRVMxZVLUEVgBQ7X3j0KF/BpDuj+eXiHJvjYceASFwaPvZ7ttkmSgCvY5EcFSe1RstL/7gwUM/BRscvH0bK5JJr/v3x7azFtb83yasoErF0ZrSgpuq4DIQYz41vuWWZizc9EoYV4ZBbTIfx+CiO0Gs8g4g2fKJJ6GyFojxRSC68Lf9HDIjspQt9M++sTeVhJrqNsrv4jUENTHxJIz0Bxj56gXGzYCRMwP5l30tIFid+kmfcOQrXTmudazZ04DO5k+KAizTi4urKmUC4OCQxH5qjOR1afNZ56rcydj5pV8Ttnb0RueWmyreq8gGsWCvEaEZH0pnVCA8rCRmBKBLKRjLjcCUpL0cmTDVBTkSprFNAQeZkeRRfUbY6sGYrhQwBxt7a7Uz2IGGxav6MzjXme4miS/WizWcGbqui2mJ4srSaU/cHVbhDZ4WAKsMUtVPYevrLI=",
+"Sni":"mPJ6vohlHXvEVslN9zDjC8j+FM5vlIV6qUKN/hcZp/DKS9XAUVFzPQ==",
+"Message":"fo gtm users only"
+},
+{
+"Name":"GTM Promo 2",
+"Proxy":"0",
+"Port":"441",
+"Network":"sun",
+"Payload":"/8cf/+diXo5fqewY6F45w9hkXCkeSbUYmeM5e4p3v/3KCY7zjvCaKrKscoE4EAmp4gatyX+eiB3cwXWRb0Blm/JzcgsOr1ke4YZAjMHi1Ok=",
+"Sni":"mPJ6vohlHXt1+mV62FysncH+PGNsVSvDClDDqafvvDY=",
+"Message":"fo gtm users only"
+},
+{
+"Name":"openvpn ssl",
+"Proxy":"0",
+"Port":"333",
+"Network":"sun",
+"Payload":"/8cf/+diXo5fqewY6F45w9hkXCkeSbUYmeM5e4p3v/3KCY7zjvCaKrKscoE4EAmp4gatyX+eiB3cwXWRb0Blm/JzcgsOr1ke4YZAjMHi1Ok=",
+"Sni":"mPJ6vohlHXvEVslN9zDjC8j+FM5vlIV6qUKN/hcZp/DKS9XAUVFzPQ==",
+"Message":"fo gtm users only"
+}
+],
+
+
+"Version": [
+{
+"Name":"1.1"
+}
+]
+
+}
